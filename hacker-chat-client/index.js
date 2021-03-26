@@ -1,9 +1,22 @@
+#!/usr/bin/env node
+
 /*
-node index.js \
-    --username erickwendel \
-    --room sala01 \
-    --hostUri localhost
-*/
+chmod +x index.js
+
+para instalar -> npm i -g @pablovicz/hacker-chat-client
+para tirar -> npm unlink -g @pablovicz/hacker-chat-client
+
+bash  node index.js
+
+hacker-chat \
+    --username pablovicz\
+    --room sala01
+
+
+./index.js \
+    --username pablovicz\
+    --room sala01
+*/ 
 
 
 import Events from 'events'
